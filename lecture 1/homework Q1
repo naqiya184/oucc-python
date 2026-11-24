@@ -1,0 +1,9 @@
+movie = input("Movie: ")
+seat = input("Seat: ")
+price = input("Price: ")
+
+print("=======TICKET=======")
+print("Movie: ", movie)
+print("Seat: ", seat)
+print("Price: ", price, "rupees")
+print("========================Moa")
