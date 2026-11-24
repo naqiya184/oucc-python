@@ -1,0 +1,8 @@
+students = int(input("Students: "))
+seats = int(input(" Seats per van: "))
+
+exact_vans = students / seats
+full_vans = students // seats
+
+print("Exact vans: ", exact_vans, type(exact_vans))
+print("Full vans: ", full_vans, type(full_vans))
