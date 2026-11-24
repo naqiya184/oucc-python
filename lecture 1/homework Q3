@@ -1,0 +1,9 @@
+POINTS_PER_BASKET = 2
+POINTS_PER_FREE_THROW = 1
+
+baskets = int(input("Baskets: "))
+free_throws = int(input("Free throws: "))
+
+total_points = (baskets * POINTS_PER_BASKET) + (free_throws * POINTS_PER_FREE_THROW)
+
+print("Total points =", total_points)
